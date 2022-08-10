@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    background-color: var(--background-container);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    background-color: rgb(23, 29, 196);
+    width: 1200px;
+}
