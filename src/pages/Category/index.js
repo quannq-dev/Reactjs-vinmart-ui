@@ -1,6 +1,6 @@
 
 function Category() {
-    return <h2>Category pages</h2>;
+    return <h2>Ok</h2>;
 }
 
 export default Category;

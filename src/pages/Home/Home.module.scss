@@ -1,0 +1,46 @@
+.wrapper-home {
+    background-color: #ffffff;
+    width: 1200px;
+}
+
+.logo {
+    width: 100%;
+    img {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.title {
+    padding:6px 0;
+    padding-left: 20px;
+    margin-top: -6px;
+    background-color: #f6f6f6;
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.product {
+    padding-top: 100%;
+     img {
+        display: block;
+        width: 50px;
+     }
+}

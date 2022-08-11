@@ -8,5 +8,50 @@
 .inner {
     height: 100%;
     width: 1200px;
-    background-color: aliceblue;
+}
+
+.header-bottom {
+    height: 40px;
+    background-color: #eee6e7;
+    box-shadow: 3px 5px 10px rgba(228, 13, 13, 0.7);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1200px;
+    height:40px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.header-item {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.icon-down {
+    padding-top: 3px;
+    font-size: 1.4rem;
+}
+
+
+.header-item-red {
+    color: var(--primary);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.product {
+    
 }
