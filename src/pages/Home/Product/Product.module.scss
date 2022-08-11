@@ -1,0 +1,94 @@
+
+.col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.product {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    margin: 0 10px;
+    box-shadow: 3px 2px 4px rgb(0, 0, 0, 0.3);
+    transition: 0.2s linear;
+}
+.product:hover {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
+    transform: translateY(2px);
+}
+.product-img {
+    background-image: url(https://cdn-crownx.winmart.vn/images/prod/162428240833410056267-HOP-Khan-giay-1-lop-Lency-33cm-gui-1kg.jpg);
+    margin-top: 10px;
+    padding-top: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.product-title {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.product-heading {
+    font-size: 1.4rem;
+    color: #949090;
+    padding: 0 10px;
+    line-height: 1.5rem;
+    height: 3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 10px;
+}
+
+.product-unit {
+    margin-top: 5px;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    color: #333;
+}
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px 0 10px;
+    margin-bottom: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: #0b0a0a;
+}
+.product-gack {
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.product-action {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.btn {
+    width: 80%;
+    padding: 10px 0;
+    color: var(--primary-color);
+    border: 1px solid currentColor;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        border: 1px solid var(--primary);
+    }
+}

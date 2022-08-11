@@ -14,33 +14,22 @@
 }
 
 .title {
-    padding:6px 0;
+    padding: 6px 0;
     padding-left: 20px;
     margin-top: -6px;
     background-color: #f6f6f6;
     color: #333333;
     font-size: 1.8rem;
     line-height: 2;
+    box-shadow: 3px 2px 4px rgb(0, 0, 0, 0.3);
+}
+.title.title-rcq {
+   margin-top: 10px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -6px;
-    margin-right: -6px;
-}
-
-.col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-
-.product {
-    padding-top: 100%;
-     img {
-        display: block;
-        width: 50px;
-     }
+    margin-left: -4px;
+    margin-right: -4px;
 }
