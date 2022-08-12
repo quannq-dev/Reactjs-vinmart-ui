@@ -1,0 +1,21 @@
+.cart {
+    min-height: 400px;
+    text-align: center;
+    img {
+        margin-top: 50px;
+    }
+    p {
+        font-size: 1.5rem;
+        color: #000;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    a {
+        display: block;
+        padding: 10px 20px;
+        background-color: #d10a00;
+        margin-top: 20px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+}

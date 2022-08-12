@@ -102,38 +102,38 @@ function Footer() {
                     <div className={cx('row-3')}>
                         <div className={cx('col-l-3')}>
                             <div className={cx('content')}>
-                               <div className={cx("block")}>
+                                <div className={cx('block')}>
                                     <h3>Địa chỉ giao dịch Hà Nội:</h3>
                                     <p>
-                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 6, Toà nhà trung tâm
-                                        Quốc tế, số 17 Ngô Quyền, Phường Tràng Tiền, Quận Hoàn Kiếm, Thành Phố Hà Nội
-                                    </p>
-                               </div>
-                            </div>
-                        </div>
-                        <div className={cx('col-l-3')}>
-                            <div className={cx('content')}>
-                              <div className={cx("block")}>
-                                    <h3>Trụ sở chính:</h3>
-                                    <p>
-                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 5, Mplaza SaiGon, 39 Lê
-                                        Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh,Việt Nam.
-                                    </p>
-                              </div>
-                            </div>
-                        </div>
-                        <div className={cx('col-l-3')}>
-                            <div className={cx('content')}>
-                                <div className={cx("block")}>
-                                    <h3>Địa chỉ giao dịch Tp.HCM:</h3>
-                                    <p>
-                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 5, Mplaza SaiGon, 39 Lê
-                                        Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh
+                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 6, Toà nhà trung
+                                        tâm Quốc tế, số 17 Ngô Quyền, Phường Tràng Tiền, Quận Hoàn Kiếm, Thành Phố Hà
+                                        Nội
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        
+                        <div className={cx('col-l-3')}>
+                            <div className={cx('content')}>
+                                <div className={cx('block')}>
+                                    <h3>Trụ sở chính:</h3>
+                                    <p>
+                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 5, Mplaza SaiGon,
+                                        39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh,Việt Nam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={cx('col-l-3')}>
+                            <div className={cx('content')}>
+                                <div className={cx('block')}>
+                                    <h3>Địa chỉ giao dịch Tp.HCM:</h3>
+                                    <p>
+                                        Công Ty Cổ Phần Dịch Vụ Thương Mại Tổng Hợp WinCommerce Tầng 5, Mplaza SaiGon,
+                                        39 Lê Duẩn, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
