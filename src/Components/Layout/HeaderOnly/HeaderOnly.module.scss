@@ -1,5 +1,12 @@
-.container {
+.wrapper {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 1200px;
+    display: flex;
+}
+.content {
+    flex: 1;
 }
