@@ -3,17 +3,17 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-function Product() {
+function Product(props) {
     return (
         <div className={cx('col')}>
             <div className={cx('product')}>
-                <div className={cx('product-img')}></div>
+                <img src={props.src} className={cx("product-img")}/>
                 <div className={cx('product-title')}>
-                    <h4 className={cx('product-heading')}>Sữa tươi nguyên kem tiệt trùng Lemontree Dairy hộ</h4>
-                    <p className={cx('product-unit')}>ĐVT: Hộp</p>
+                    <h4 className={cx('product-heading')}>{props.title}</h4>
+                    <p className={cx('product-unit')}>{props.dvt}</p>
                     <div className={cx('product-price')}>
-                        <span className={cx('product-gack')}>39.500₫</span>
-                        <span className={cx('product-action')}>19.900₫</span>
+                        <span className={cx('product-gack')}>{props.salePrice}</span>
+                        <span className={cx('product-action')}>{props.price}</span>
                     </div>
                     <button className={cx('btn')}>Thêm vào giỏ</button>
                 </div>
