@@ -1,8 +1,32 @@
-.wrapper-slider {
-    width: 300px;
-    height: 100px;
-    background-color: aqua;
+.wrapper-sidebar {
+   width: 300px;
+   border-right: 1px solid rgb(148, 143, 143);
 }
-.content{
-    height: 100px;
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.sidebar:nth-child(2) {
+    border: none;
+    margin-top: 40px;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+.sidebar-link {
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+.sidebar-link.link {
+}
+
+.sidebar-icon {
+    margin-top: 40px;
 }

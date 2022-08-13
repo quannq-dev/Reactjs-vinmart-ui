@@ -1,6 +1,11 @@
 .container {
     width: 100%;
     background-color: var(--background-container);
-    display: flex;
     justify-content: center;
+    display: flex;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
 }

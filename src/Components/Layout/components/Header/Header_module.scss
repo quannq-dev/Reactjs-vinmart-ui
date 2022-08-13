@@ -1,3 +1,4 @@
+
 .wrapper {
     background-color: var(--primary);
     height: var(--header-layout);
@@ -40,7 +41,7 @@
 .header-link {
     display: flex;
     align-items: center;
-    width:630px;
+    width:660px;
     font-size: 1.6rem;
     font-weight: 600;
     a {
@@ -49,12 +50,17 @@
         margin-right: 16px;
     }
 }
+.header-icon {
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
 .header-bottom {
     height: 40px;
     background-color: #eee6e7;
     display:flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 3px 2px 4px rgb(0, 0, 0, 0.3);
 }
 
 .content {

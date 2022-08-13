@@ -1,12 +1,16 @@
-.wrapper {
+.wrapper-only {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: var(--background-container);
 }
 .container {
-    width: 1200px;
     display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: #fff;
+
 }
 .content {
-    flex: 1;
+   flex: 1;
 }

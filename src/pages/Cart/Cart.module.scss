@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+}
 .cart {
     min-height: 400px;
     text-align: center;
@@ -5,7 +9,7 @@
         margin-top: 50px;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: #000;
         font-weight: 500;
         margin-top: 10px;

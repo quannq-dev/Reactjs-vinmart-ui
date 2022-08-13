@@ -15,7 +15,7 @@ const cx = classNames.bind(styles);
 
 function Header() {
     return (
-        <>
+        <div className={cx('container')}>
             <div className={cx('wrapper')}>
                 <div className={cx('inner')}>
                     <div className={cx('logo')}>
@@ -33,48 +33,48 @@ function Header() {
                     </div>
                     <div className={cx('header-link')}>
                         <a href="#">
-                            <FaUserAstronaut />
+                            <FaUserAstronaut className={cx("header-icon")} />
                             Tài Khoản
                         </a>
                         <a href="#">
-                            <FaCartPlus />
+                            <FaCartPlus className={cx("header-icon")} />
                             Giỏ hàng
                         </a>
                         <a href="#">
-                            <FaSearchLocation />
+                            <FaSearchLocation className={cx("header-icon")} />
                             Tài TP.Hà nội
                         </a>
                     </div>
                 </div>
             </div>
             <div className={cx('header-bottom')}>
-                <div className={cx('content')}>
-                    <ul className={cx('header-list-1')}>
-                        <li className={cx('header-item')}>
-                            <FaBars className={cx('icon-down')} />
-                            Danh Mục Sản Phẩm
-                        </li>
-                    </ul>
-                    <ul className={cx('header-list')}>
-                        <li className={cx('header-item')}>
-                            <FaChevronDown className={cx('icon-down')} />
-                            Sản phẩm đã xem
-                        </li>
-                        <li className={cx('header-item header-item-red')}>
-                            <FaHospitalUser className={cx('icon-down')} />
-                            Nhượng quyền WinMart"
-                        </li>
-                        <li className={cx('header-item')}>
-                            <FaEnvelopeOpen className={cx('icon-down')} /> Tin tức WinMart
-                        </li>
-                        <li className={cx('header-item')}>
-                            <FaHeadphones className={cx('icon-down')} />
-                            Tư vấn mua hàng
-                        </li>
-                    </ul>
+                    <div className={cx('content')}>
+                        <ul className={cx('header-list-1')}>
+                            <li className={cx('header-item')}>
+                                <FaBars className={cx('icon-down')} />
+                                Danh Mục Sản Phẩm
+                            </li>
+                        </ul>
+                        <ul className={cx('header-list')}>
+                            <li className={cx('header-item')}>
+                                <FaChevronDown className={cx('icon-down')} />
+                                Sản phẩm đã xem
+                            </li>
+                            <li className={cx('header-item header-item-red')}>
+                                <FaHospitalUser className={cx('icon-down')} />
+                                Nhượng quyền WinMart"
+                            </li>
+                            <li className={cx('header-item')}>
+                                <FaEnvelopeOpen className={cx('icon-down')} /> Tin tức WinMart
+                            </li>
+                            <li className={cx('header-item')}>
+                                <FaHeadphones className={cx('icon-down')} />
+                                Tư vấn mua hàng
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </>
+        </div>
     );
 }
 

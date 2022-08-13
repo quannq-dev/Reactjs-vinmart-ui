@@ -5,9 +5,9 @@ const cx = classNames.bind(styles);
 
 function Product(props) {
     return (
-        <div className={cx('col')}>
+        <div className={cx("col")}>
             <div className={cx('product')}>
-                <img src={props.src} className={cx("product-img")}/>
+                <img src={props.src} className={cx("product-img")} alt={props.title}/>
                 <div className={cx('product-title')}>
                     <h4 className={cx('product-heading')}>{props.title}</h4>
                     <p className={cx('product-unit')}>{props.dvt}</p>
