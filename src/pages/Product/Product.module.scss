@@ -65,7 +65,7 @@
     }
 }
 .price {
-    background-image: url("https://winmart.vn/_next/static/images/bg-product-1fb6a3ec6319488c0e5d03e99a3500c4.jpg");
+    background-image: url('https://winmart.vn/_next/static/images/bg-product-1fb6a3ec6319488c0e5d03e99a3500c4.jpg');
     width: 100%;
     height: 130px;
     padding: 10px;
@@ -157,9 +157,12 @@
         width: 30px;
         border: 1px solid red;
         padding: 10px;
+        outline: none;
         &::placeholder {
-            color: #000;
             font-size: 1.4rem;
+        }
+        &:focus {
+            border: 1px solid rgb(107, 88, 88);
         }
     }
 }
@@ -173,11 +176,11 @@
         padding: 10px 20px;
         background-color: red;
         cursor: pointer;
-        margin-right:40px;
+        margin-right: 40px;
     }
     .transparent {
         background-color: transparent;
-        color:red;
+        color: red;
     }
 }
 
@@ -188,10 +191,136 @@
 }
 
 .details-title-left {
-    flex: 0 0 70%;
-    max-width: 70%;
+    flex: 0 0 60%;
+    max-width: 60%;
 }
 .details-title-right {
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.details-product {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+}
+
+.details-img {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 10px;
+    padding-bottom: 50px;
+    img {
+        width: 30%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    span {
+        display: block;
+    }
+}
+
+.details-information {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 10px;
+}
+
+.details-information-title {
+    display: flex;
+    color: #999999;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin-right: 50px;
+    }
+    .information-title {
+        margin-left: 100px;
+    }
+}
+
+.evaluate {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.evaluate-product {
+    width: 100%;
+    background-color: #fff;
+}
+
+.form {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.evaluate-product-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.evaluate-product-left {
+    flex: 0 0 15%;
+    max-width: 15%;
+    span {
+        color: red;
+    }
+}
+
+.evaluate-product-right {
+    flex: 0 0 85%;
+    max-width: 85%;
+    padding-right: 20px;
+}
+
+.evaluate-product-input {
+    padding: 8px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(100, 98, 98);
+}
+.evaluate-product-input:focus {
+    border: 1px solid red;
+    color: #000;
+}
+.icon-start {
+    color: gold;
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+
+.evaluate-product-input.evaluate-product-input-width {
+    padding-bottom: 50px;
+}
+
+.btn-evaluate {
+    margin-left: 175px;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.coalition-products {
+    padding: 10px;
+}
+
+.coalition-products-list {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.padding-20px {
+    padding-bottom: 20px;
 }

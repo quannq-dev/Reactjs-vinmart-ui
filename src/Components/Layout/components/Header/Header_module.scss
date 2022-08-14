@@ -1,8 +1,7 @@
-
 .wrapper {
     background-color: var(--primary);
     height: var(--header-layout);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -41,7 +40,7 @@
 .header-link {
     display: flex;
     align-items: center;
-    width:660px;
+    width: 660px;
     font-size: 1.6rem;
     font-weight: 600;
     a {
@@ -57,7 +56,7 @@
 .header-bottom {
     height: 40px;
     background-color: #eee6e7;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 3px 2px 4px rgb(0, 0, 0, 0.3);
@@ -65,7 +64,7 @@
 
 .content {
     width: 1200px;
-    height:40px;
+    height: 40px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -87,7 +86,6 @@
     padding-top: 3px;
     font-size: 1.4rem;
 }
-
 
 .header-item-red {
     color: var(--primary);
