@@ -235,13 +235,14 @@
     font-size: 1.5rem;
     border-bottom: 1px solid #999999;
     margin-bottom: 20px;
-    justify-content: space-between;
     align-items: center;
     p {
-        margin-right: 50px;
+        flex: 0 0 50%;
+        padding-right: 10px;
     }
     .information-title {
-        margin-left: 100px;
+        flex: 00 50%;
+        padding-right: 10px;
     }
 }
 

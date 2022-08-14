@@ -80,6 +80,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .header-list {
     display: flex;
@@ -91,6 +92,7 @@
 .header-item {
     list-style: none;
     margin-right: 20px;
+  
 }
 
 .icon-down {
