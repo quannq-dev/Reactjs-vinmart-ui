@@ -4,7 +4,7 @@ import styles from './Home.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Home(props) {
+function Home() {
     return (
         <div className={cx('container')}>
             <div className={cx('wrapper-home')}>

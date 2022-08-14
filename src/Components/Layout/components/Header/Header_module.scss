@@ -4,6 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top :0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 .inner {
     width: 1200px;
@@ -60,6 +65,12 @@
     justify-content: center;
     align-items: center;
     box-shadow: 3px 2px 4px rgb(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    z-index: 1;
 }
 
 .content {
