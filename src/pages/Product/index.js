@@ -2,6 +2,7 @@ import styles from './Product.module.scss';
 import classNames from 'classnames/bind';
 import { FaCarSide, FaChevronRight, FaStar } from 'react-icons/fa';
 import ProductItem from '../Home/ProductItem';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -9,9 +10,9 @@ function Product() {
     return (
         <div className={cx('wrapper-product')}>
             <div className={cx('heading')}>
-                <a href="../Home" className={cx('link-home')}>
+                <Link to="/" className={cx('link-home')}>
                     Trang Chủ
-                </a>
+                </Link>
                 <FaChevronRight className={cx('heading-icon')} />
                 <p>Dầu gội bạc hà Head & Shoulders 850ml</p>
             </div>

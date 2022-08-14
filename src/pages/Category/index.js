@@ -8,8 +8,8 @@ function Category() {
     return (
         <div className={cx('wrapper-category')}>
             <div className={cx('inner-category')}>
-                <a href="../Category">Khuyễn Mãi Tốt Nhất</a>
-                <a href="../Category">Bán chạy</a>
+                <a href="./category">Khuyễn Mãi Tốt Nhất</a>
+                <a href="./category">Bán chạy</a>
             </div>
             <hr></hr>
             <div className={cx('category-list')}>

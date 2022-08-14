@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top :0;
+    top: 0;
     right: 0;
     left: 0;
     z-index: 1;
@@ -33,6 +33,7 @@
     font-size: 2rem;
     color: var(--primary);
     height: 100%;
+    cursor: pointer;
 }
 .header-search {
     flex: 1;
@@ -80,7 +81,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
 }
 .header-list {
     display: flex;
@@ -92,7 +92,8 @@
 .header-item {
     list-style: none;
     margin-right: 20px;
-  
+    text-decoration: none;
+    color: #333;
 }
 
 .icon-down {

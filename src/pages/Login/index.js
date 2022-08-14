@@ -1,6 +1,7 @@
 import styles from './Login.module.scss';
 import classNames from 'classnames/bind';
 import { FaArrowLeft } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -14,9 +15,9 @@ function Login() {
                         src="https://winmart.vn/_next/static/images/logovin-108bbe45e7de2295fdf97185ea5f93ed.png"
                         alt="WinMart"
                     />
-                    <a className={cx('link')} href="../Home">
+                    <Link className={cx('link')} to="/">
                         <FaArrowLeft />
-                    </a>
+                    </Link>
                     <h5 className={cx('login-title')}>Đăng Nhập</h5>
                     <form>
                         <input className={cx('login-input')} type="text" placeholder="Email hoặc số điện thoại*" />

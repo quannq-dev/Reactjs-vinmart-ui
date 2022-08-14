@@ -1,11 +1,12 @@
 import styles from './Product.module.scss';
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
 function Product(props) {
     return (
-        <div className={cx('col')}>
+        <Link to="/product" className={cx('col')}>
             <div className={cx('product')}>
                 <img src={props.src} className={cx('product-img')} alt={props.title} />
                 <div className={cx('product-title')}>
@@ -18,7 +19,7 @@ function Product(props) {
                     <button className={cx('btn')}>Thêm vào giỏ</button>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
 
