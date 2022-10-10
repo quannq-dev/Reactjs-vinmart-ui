@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reactjs-vinmart-ui/static/css/main.fb2d9d4d.css",
+    "main.js": "/Reactjs-vinmart-ui/static/js/main.ee029a2a.js",
+    "static/js/787.73a19c82.chunk.js": "/Reactjs-vinmart-ui/static/js/787.73a19c82.chunk.js",
+    "index.html": "/Reactjs-vinmart-ui/index.html",
+    "main.fb2d9d4d.css.map": "/Reactjs-vinmart-ui/static/css/main.fb2d9d4d.css.map",
+    "main.ee029a2a.js.map": "/Reactjs-vinmart-ui/static/js/main.ee029a2a.js.map",
+    "787.73a19c82.chunk.js.map": "/Reactjs-vinmart-ui/static/js/787.73a19c82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2d9d4d.css",
+    "static/js/main.ee029a2a.js"
+  ]
+}
